@@ -11,7 +11,7 @@ import Register from './Register';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/react-web'>
       <Switch>
         <Route exact path='/'>
           <Home/>
